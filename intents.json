@@ -1,0 +1,28 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello there", "How's it going?", "Is anyone here?", "Hey there", "Hi!", "Greetings", "Good day!"],
+            "responses": ["Hello!", "Hi! How can I assist you today?", "Hey! What can I do for you?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you soon", "Take care", "Farewell", "Catch you later"],
+            "responses": ["Goodbye! Take care!", "See you next time!", "Take care, have a great day!"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks a lot", "I appreciate it", "Thank you so much", "Thanks for the help", "You're the best, thanks!"],
+            "responses": ["You're very welcome!", "Anytime, glad to help!", "Happy to assist!"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What could cause AI to dominate the world?", "How might AI control the world?", "In what ways could AI take over?", "Could AI take control of everything?", "How can AI affect the world drastically?"],
+            "responses": ["AI could potentially dominate the world by reshaping economies, society, and power dynamics, especially if developed without proper checks and ethical guidelines."],
+            "context": [""]
+        }
+    ]
+}
